@@ -35,7 +35,7 @@ In the next Version, User will be able to contract online available public servi
 [] User can create password to access his safe box, add or remove file (picture, document, bookmarks), using gallery or photo app.
 [] Profile pages for each user
 [] Settings (Accesibility, Notification, General, etc.)
-[]* Activate or desactivate his GPS
+[] Activate or desactivate his GPS
 
 **Optional Nice-to-have Stories**
 
