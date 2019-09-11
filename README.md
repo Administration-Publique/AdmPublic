@@ -48,7 +48,17 @@ In the next Version, User will be able to contract online available public servi
 
 * Login 
 * Register - User signs up or logs into their account
-   * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to have best home screen content matching to him
+   * When you download / re-open the application, the user is prompted to log in to access their profile information to receive a better suggestion when they search, or to fill out a form.
+ * Home - User choose the best way to get his information 
+   * The user chooses the type of search he wants to do, according to his needs. Several categories of filter is offered, allowing him to optimize his research.
+   * If user are not abble to choose, he can just add his word in the search bar, where best word matching what he is typing, is progresively proposed
+   * Even if user doesnt make any search action, the Home screen propose him a screen of the last public service update and pub that match best his profil.
+* Document box screens - User can choose to upload his importante documents to a online safe and secure space where to get them, he will just need a active connection.
+   * when user open this activity, he will be asked to create a 6 (alphanumeric) digit password to secure access to his box documnet
+   * user can add paper to his document box, by using camera app or gallery or web ressource file. this redirectin is proposed in a sub menu, each time user request to add paper to his box.
+* Locate screen - user can get adress and coordinates for every public offices services he needs.
+* Profil screen
+* Setting screen
 
 ### 3. Navigation
 
