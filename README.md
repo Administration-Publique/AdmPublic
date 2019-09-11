@@ -27,7 +27,7 @@ In the next Version, User will be able to contract online available public servi
 
 **Required Must-have Stories**
 
-[] Users search his public service needed by typing a key word in the search bar or by Selecting from a list,  and know everything about it as services, contacts, addresses.
+* [ ] Users search his public service needed by typing a key word in the search bar or by Selecting from a list,  and know everything about it as services, contacts, addresses.
 [] Users get localisation by using the map view and be redirected to; the google map app to get itinerary, to app dial app or google mail app to contact offices .
 [] User logs in to access home search screen
 [] User can send or accept request message to add others to his network
