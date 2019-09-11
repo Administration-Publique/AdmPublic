@@ -72,10 +72,10 @@ In the next Version, User will be able to contract online available public servi
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
-https://github.com/lovens09/ADPublique-master/blob/master/ADPublic%20Digital%20wireframe.png
+https://github.com/Administration-Publique/AdmPublic/blob/master/ADPublic%20Digital%20wireframe.png
 
 ### [BONUS] Interactive Prototype
-https://github.com/lovens09/ADPublique-master/blob/master/ADPublique%20Vid%20walkthrough.gif
+https://github.com/Administration-Publique/AdmPublic/blob/master/ADPublique%20Vid%20walkthrough.gif
 
 ## Schema 
 [This section will be completed in Unit 9]
