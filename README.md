@@ -48,15 +48,16 @@ In the next Version, User will be able to contract online available public servi
 
 * Login 
 * Register - User signs up or logs into their account
-   * When you download / re-open the application, the user is prompted to log in to access their profile information to receive a better suggestion when they search, or to fill out a form.
+   * When you download / re-open the application, the user is prompted to log in to access their profile information to receive a better suggestion when they search, or to fill out a form. User also can have a limit access to the app by skiping the login page.
  * Home - User choose the best way to get his information 
    * The user chooses the type of search he wants to do, according to his needs. Several categories of filter is offered, allowing him to optimize his research.
    * If user are not abble to choose, he can just add his word in the search bar, where best word matching what he is typing, is progresively proposed
-   * Even if user doesnt make any search action, the Home screen propose him a screen of the last public service update and pub that match best his profil.
-* Document box screens - User can choose to upload his importante documents to a online safe and secure space where to get them, he will just need a active connection.
+   * Even if user does'nt make any search action, the Home screen propose him a screen of the last public service update and pub that match best his profil.
+* Document box screens - User can choose to upload his importants documents to a online safe and secure space where to get them, he will just need a active connection.
    * when user open this activity, he will be asked to create a 6 (alphanumeric) digit password to secure access to his box documnet
    * user can add paper to his document box, by using camera app or gallery or web ressource file. this redirectin is proposed in a sub menu, each time user request to add paper to his box.
 * Locate screen - user can get adress and coordinates for every public offices services he needs.
+* FAQ screen - user can get access to the most asking question and askes his own question or give an answer (User with an account).
 * Profil screen
 * Setting screen
 
@@ -64,18 +65,31 @@ In the next Version, User will be able to contract online available public servi
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Start screen
+* Search bar
+* Home feed
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Login screen
+   * Home
+* Registration screen
+   * Home
+* Droits screen
+   * category
+   * key word
+   * recents searches
+* Services screen
+   * category
+   * key word
+   * recents searches
+* Localize screen
+   * search screen
+   * itinerary and address
+* DocBox screen
+   * user verification page
+* FAQ screen
+   * add new comment
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
