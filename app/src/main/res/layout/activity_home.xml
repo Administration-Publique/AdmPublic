@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <View
+        android:id="@+id/rectangle"
+        android:layout_width="412dp"
+        android:layout_height="219dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/logoHomeBgrnd" />
+
+    <TextView
+        android:id="@+id/bienvenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="240dp"
+        android:gravity="center|top"
+        android:text="Bienvenue"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#057B9F" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="123dp"
+        android:text="En poursuivant, vous acceptez les termes et les conditions d'utilisations"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:text="Besoin d'aide !"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bienvenue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="Retrouvez ici toutes les informations vos droits et services publiques"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/appLogo2"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="142dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/rectangle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="252dp"
+        android:background="@drawable/Startbtn" />
+</RelativeLayout>
