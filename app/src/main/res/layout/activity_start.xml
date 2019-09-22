@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="0dp"
         android:layout_marginTop="0dp"
-        android:background="@drawable/logoHomeBgrnd" />
+        android:background="@drawable/logohomebgrnd" />
 
     <TextView
         android:id="@+id/bienvenue"
@@ -33,7 +33,7 @@
 
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/conditions"
         android:layout_width="249dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/startBtn"
@@ -46,7 +46,7 @@
 
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/help"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/startBtn"
@@ -84,5 +84,5 @@
         android:layout_below="@+id/rectangle"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="252dp"
-        android:background="@drawable/Startbtn" />
+        android:background="@drawable/startbtn" />
 </RelativeLayout>

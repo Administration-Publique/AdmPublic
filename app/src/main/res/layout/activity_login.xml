@@ -16,8 +16,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="171dp"
         android:layout_marginTop="56dp"
-        android:background="@drawable/logPic" />
-
+        android:background="@drawable/logpic" />
 
 
     <TextView
@@ -29,8 +28,9 @@
         android:layout_marginLeft="61dp"
         android:layout_marginTop="229dp"
         android:gravity="top"
-        android:text="Nom d'utilisateur / Email"
+        android:hint="Nom d'utilisateur / Email"
         android:textColor="#A3C7D2"
+        android:textColorHint="#A3C7D2"
         android:textSize="18sp" />
 
 
@@ -43,8 +43,9 @@
         android:layout_marginLeft="61dp"
         android:layout_marginTop="291dp"
         android:gravity="top"
-        android:text="Mot de passe"
+        android:hint="Mot de passe"
         android:textColor="#A3C7D2"
+        android:textColorHint="#A3C7D2"
         android:textSize="18sp" />
 
 
@@ -64,7 +65,7 @@
 
 
     <TextView
-        android:id="@+id/connectBtn"
+        android:id="@+id/connectbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -106,8 +107,8 @@
         />
 
 
-    <View
-        android:id="@+id/connectbtn"
+    <Button
+        android:id="@+id/connectBtn"
         android:layout_width="163dp"
         android:layout_height="47dp"
         android:layout_alignParentLeft="true"
@@ -115,7 +116,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="126dp"
         android:layout_marginTop="514dp"
-        android:background="@drawable/connectBtn" />
+        android:background="@drawable/connectbtn" />
 
 
 
@@ -127,7 +128,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="221dp"
         android:layout_marginTop="444dp"
-        android:background="@drawable/connectWithGoogle" />
+        android:background="@drawable/connectwithgoogle" />
 
 
 
@@ -139,7 +140,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="154dp"
         android:layout_marginTop="442dp"
-        android:background="@drawable/connectWithFace" />
+        android:background="@drawable/connectwithface" />
 
     <View
         android:id="@+id/divider"
