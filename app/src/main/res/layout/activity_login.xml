@@ -1,12 +1,166 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".LoginActivity">
 
-    
+    <View
+        android:id="@+id/logPic"
+        android:layout_width="75dp"
+        android:layout_height="68dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="171dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/logPic" />
+
+
+
+    <TextView
+        android:id="@+id/emailOrUser"
+        android:layout_width="216dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="229dp"
+        android:gravity="top"
+        android:text="Nom d'utilisateur / Email"
+        android:textColor="#A3C7D2"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="169dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="291dp"
+        android:gravity="top"
+        android:text="Mot de passe"
+        android:textColor="#A3C7D2"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="206dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="579dp"
+        android:gravity="top"
+        android:text="Pas de compte? enregistrer maintenant"
+        android:textAlignment="center"
+        android:textColor="#9D3D6E"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/connectBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="406dp"
+        android:gravity="top"
+        android:text="connecter avec"
+        android:textColor="#057B9F"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/forgotpass"
+        android:layout_width="143dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="337dp"
+        android:gravity="top"
+        android:text="Mot de passe oublie?"
+        android:textColor="#057B9F"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/connecter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="157dp"
+        android:layout_marginTop="157dp"
+        android:gravity="top"
+        android:text="connecter"
+        android:textColor="#057B9F"
+        android:textSize="22sp"
+        />
+
+
+    <View
+        android:id="@+id/connectbtn"
+        android:layout_width="163dp"
+        android:layout_height="47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="514dp"
+        android:background="@drawable/connectBtn" />
+
+
+
+    <View
+        android:id="@+id/connectGoogle"
+        android:layout_width="38dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="221dp"
+        android:layout_marginTop="444dp"
+        android:background="@drawable/connectWithGoogle" />
+
+
+
+    <View
+        android:id="@+id/connectFace"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="442dp"
+        android:background="@drawable/connectWithFace" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="261dp"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@id/emailOrUser"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="257dp"
+        android:background="#9D3D6E" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="261dp"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@id/divider"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="318dp"
+        android:background="#9D3D6E" />
+
+
+
+
 
 </RelativeLayout>
