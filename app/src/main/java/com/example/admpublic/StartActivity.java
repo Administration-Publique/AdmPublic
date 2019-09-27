@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -22,10 +23,12 @@ public class StartActivity extends AppCompatActivity {
         Help = (TextView) findViewById(R.id.help);
         Start = (Button) findViewById(R.id.startBtn);
 
-        Start.setOnClickListener(new View.OnClickListener() {
+        Start.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                 Intent intent = new Intent(StartActivity.this, LoginActivity.class);
+                Intent intent = new Intent(StartActivity.this, LoginActivity.class);
+                StartActivity.this.startActivity(intent);
+
             }
         });
     }

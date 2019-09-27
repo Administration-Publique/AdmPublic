@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">AdmPublic</string>
+    <string name="conditions">En poursuivant, vous acceptez les termes et les conditions d\'utilisations</string>
+    <string name="description">Retrouvez ici toutes les informations vos droits et services publiques</string>
+    <string name="bienvenue">Bienvenue</string>
+    <string name="besoin_d_aide">Besoin d\'aide !</string>
+    <string name="app_logo">app logo</string>
+    <string name="mot_de_passe_oublie">Mot de passe oublie?</string>
+    <string name="userhint">Nom d\ utilisateur ou Email</string>
+    <string name="logo_pic">logo pic</string>
+    <string name="connecter_avec">connecter avec</string>
+    <string name="pas_de_compte_enregistrer_maintenant">Pas de compte? enregistrer maintenant</string>
+    <string name="connecter">connecter</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="mot_de_passe">Mot de passe</string>
 </resources>

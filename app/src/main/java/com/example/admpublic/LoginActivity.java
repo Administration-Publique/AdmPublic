@@ -1,6 +1,5 @@
 package com.example.admpublic;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -20,13 +19,13 @@ public class LoginActivity extends AppCompatActivity {
     private Button Login;
 
 
-    @SuppressLint("WrongViewCast")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        Name = (EditText)findViewById(R.id.emailOrUser);
+        Name = (EditText)findViewById(R.id.Username);
         Pass = (EditText)findViewById(R.id.pass);
         ToGoRegister = (TextView) findViewById(R.id.signup);
         Help = (TextView) findViewById(R.id.forgotpass);
@@ -37,16 +36,16 @@ public class LoginActivity extends AppCompatActivity {
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 validate(Name.getText().toString(), Pass.getText().toString());
-
             }
         });
     }
 
     private void validate (String userName, String userPassword  ){
        if ( (userName.equals( "Admin")) && (userPassword.equals("12345"))){
-           Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+           Intent i = new Intent(LoginActivity.this, HomeActivity.class);
+           LoginActivity.this.startActivity(i);
+
        }
     }
 }

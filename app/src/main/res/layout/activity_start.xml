@@ -11,9 +11,9 @@
         android:id="@+id/rectangle"
         android:layout_width="412dp"
         android:layout_height="219dp"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
         android:background="@drawable/logohomebgrnd" />
 
@@ -21,13 +21,13 @@
         android:id="@+id/bienvenue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="99dp"
+        android:layout_marginStart="99dp"
         android:layout_marginTop="240dp"
         android:gravity="center|top"
-        android:text="Bienvenue"
+        android:text="@string/bienvenue"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#057B9F" />
 
@@ -39,7 +39,7 @@
         android:layout_below="@+id/startBtn"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="123dp"
-        android:text="En poursuivant, vous acceptez les termes et les conditions d'utilisations"
+        android:text="@string/conditions"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp" />
@@ -52,7 +52,7 @@
         android:layout_below="@+id/startBtn"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="53dp"
-        android:text="Besoin d'aide !"
+        android:text="@string/besoin_d_aide"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp" />
@@ -64,7 +64,7 @@
         android:layout_below="@+id/bienvenue"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="46dp"
-        android:text="Retrouvez ici toutes les informations vos droits et services publiques"
+        android:text="@string/description"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp" />
@@ -75,6 +75,7 @@
         android:layout_height="133dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
+        android:contentDescription="@string/app_logo"
         app:srcCompat="@drawable/logo" />
 
     <Button
